@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biblioteca Omega</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="nav-container">
+        <p  class="nav-text"><img src="perrito.gif" alt="" width="40px" height="60px"><br>BIBLIOTECA OMEGA | Contacto</p>
+        <nav>
+            <ul>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>                
+                    <source src="audios/audio1.mpeg" type="audio/mpeg">
+                    
+                
+                    <script>
+                        var audio = document.getElementById("miAudio3");
+                        var reproduciendo = false;
+                
+                        imagenBoton.addEventListener("click", function() {
+                            if (reproduciendo) {
+                                audio.pause();
+                            } else {
+                                audio.play();
+                            }
+                            reproduciendo = !reproduciendo;
+                        });
+                
+                    </script>
+                        <script>
+                        function cambiarImagen() {
+                            var imagenBoton = document.getElementById('imagenBoton');
+                            
+                            if (imagenBoton.src.endsWith('botonaudio.png')) {
+                                imagenBoton.src = 'botonaudio2.png';
+                                imagenBoton.alt = 'Imagen 2';
+                            } else {
+                                imagenBoton.src = 'botonaudio.png';
+                                imagenBoton.alt = 'Imagen 1';
+                            }
+                        }
+                       </script>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <p style="font-size: 30px">¡Conócenos!</p>
+    </main>
+    <div align="center" class="nosotros" >
+        <div  class="section">
+            <img src="iconos/gmail.gif" style="border-radius: 10px; alt="gmail" width="200px" height="150px">
+
+            <p><a style="color: #002955" href="mailto:OmegaChatbot@omega.com?subject=Questions"> OmegaChatbot@omega.com</a><br>Tiempo promedio de respuesta 8 horas </p> 
+
+        </div>
+        <div class="section">
+            <img src="iconos/whats.gif" alt="whatsapp" width="200px" height="200px">
+            <p><a href="https://wa.me/5512364586" style="color: #002955 ">5512364586</a><br>Tiempo promedio de respuesta 6 horas</p>
+        </div>
+        <div class="section">
+            <img src="iconos/insta.gif" style="border-radius: 10px; alt="instagram" width="200px" height="200px">
+            <p><a href="https://www.instagram.com/omegaChatbot/?hl=es" style="color: #002955 ">@omegaChatbot</a><br>Tiempo promedio de respuesta 3 horas</p>
+        </div>
+        <div class="section">
+            <img src="iconos/x.gif" style="border-radius: 10px; alt="x" width="200px" height="200px">
+            <p><a href="https://twitter.com/OmegaChatbot" style="color: #002955 ">@omegaChatbot</a><br>Tiempo promedio de respuesta 2 horas</p>
+        </div>
+    </div>
+    <footer>
+        <p>Vista previa gratuita de Omega S.A. Puede producir información inexacta sobre personas, lugares o hechos. Omega Search Version Octubre 2023</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,130 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+
+body {
+            background-color: #FCFCF5; /* Color de fondo gris */
+            margin: 0; /* Eliminar márgenes predeterminados */
+        }
+
+
+        /* Estilo para el contenedor de la barra de navegación*/
+        .nav-container {
+            display: flex; /* Utilizar un contenedor flexible */
+            justify-content: space-between; /* Colocar elementos en los extremos */
+            align-items: center; /* Centrar verticalmente */
+            background-color: #002955; /* Color de fondo de la barra de navegación */
+            border-radius: 2px; /* Bordes redondeados */
+        }
+
+        .nav-text {
+            font-family: Tw Cen MT;
+            text-decoration: none; /* Quitar subrayado de los enlaces */
+            color: white; /* Color del texto de los enlaces */
+            font-size: 20px; /* Tamaño de fuente ligeramente más grande */
+            margin-left: 30px; /* Espacio entre el texto y la barra de navegación */
+        }
+
+        h1  {
+            text-align: center; /* Centrar el texto de los párrafos */
+            color: black; /* Cambiar el color del texto a blanco */
+        } 
+
+        ul {
+            list-style-type: none; /* Quitar viñetas de la lista */
+            padding: 0; /* Eliminar el relleno predeterminado de la lista */
+            font-size: 20px; /* Tamaño de fuente ligeramente más grande */
+        }
+
+        li {
+            display: inline; /* Mostrar elementos de la lista en línea */
+            margin-right: 10px; /* Espacio entre elementos de la lista */
+        }
+
+        a {
+            text-decoration: none; /* Quitar subrayado de los enlaces */
+            color: #fff; /* Color del texto de los enlaces */
+            font-size: 14px; /* Tamaño de fuente más pequeño */
+        }
+
+        /* Estilo para la barra de búsqueda */
+        .search-bar {
+            background-color: #CBDBED; /* Color de fondo de la barra de búsqueda */
+            border: 1px solid #ccc; /* Borde de la barra de búsqueda */
+            border-radius: 15px; /* Bordes redondeados */
+            padding: 7px 10px; /* Espaciado interno */
+            width: 50%; /* Ancho del 50% de la página */
+            margin: 0 auto; /* Centrar horizontalmente */
+            display: block; /* Convertir en bloque para centrar horizontalmente */
+        }
+
+         /* Estilo para el bloque de búsquedas recientes en el centro */
+        .recent-searches {
+            background-color: #CBDBED; /* Color de fondo del bloque de búsquedas recientes */
+            padding: 10px; /* Espaciado interno */
+            border-radius: 15px; /* Bordes redondeados */
+            width: 50%; /* Ancho del 50% de la página */
+            margin: 0 auto; /* Centrar horizontalmente *
+            text-align: left; /* Alinear el texto al lado izquierdo */
+        }
+
+        /* Estilo para centrar párrafos y cambiar el color del texto a blanco */
+        p {
+            text-align: center; /* Centrar el texto de los párrafos */
+            color: black; /* Cambiar el color del texto a blanco */
+        } 
+    
+
+.contenedor .contenedor-items{
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap:30px;
+    grid-row-gap: 30px;
+    width: 60%; 
+    width: 100%;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 200px;
+    margin: auto;
+    border: 1px solid #054C8C;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item .img-item{
+    width: 100%;
+}
+
+}
+.contenedor .contenedor-items .item .titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor .contenedor-items .item .precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contenedor .contenedor-items .item .boton-item{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: skyblue;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

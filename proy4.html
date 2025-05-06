@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Clientes</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background-color: #eee; }
+    input, button { margin: 5px; padding: 5px; }
+  </style>
+</head>
+<body>
+
+<h1>Clientes</h1>
+
+<form id="clienteForm">
+  <input type="hidden" id="clienteId">
+  <input type="text" id="nombre" placeholder="Nombre completo" required>
+  <input type="date" id="fechaIngreso" required>
+  <input type="number" id="mensualidades" placeholder="Mensualidades" required>
+  <input type="number" id="aportado" placeholder="Aportado" required>
+  <input type="number" id="debe" placeholder="Debe" required>
+  <button type="submit">Guardar</button>
+</form>
+
+<input type="text" id="buscarInput" placeholder="Buscar por nombre..." onkeyup="filtrar()">
+<button onclick="descargarTXT()">Descargar TXT</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Fecha Ingreso</th>
+      <th>Mensualidades</th>
+      <th>Aportado</th>
+      <th>Debe</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody id="tablaClientes"></tbody>
+</table>
+
+
+</body>
+</html>
+

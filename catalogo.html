@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biblioteca Omega</title>
+    <link rel="stylesheet" type="text/css" href="catalogo.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    
+</head>
+<body>
+    <header>
+    </header>
+    <div class="nav-container">
+        <p  class="nav-text"><img src="perrito.gif" alt="" width="40px" height="60px"><br>BIBLIOTECA OMEGA | Catálogo completo</p>
+        <nav>
+            <ul>
+               
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+                    <script>
+                        var audio = document.getElementById("miAudio3");
+                        var reproduciendo = false;
+                
+                        imagenBoton.addEventListener("click", function() {
+                            if (reproduciendo) {
+                                audio.pause();
+                            } else {
+                                audio.play();
+                            }
+                            reproduciendo = !reproduciendo;
+                        });
+                
+                    </script>
+                        <script>
+                        function cambiarImagen() {
+                            var imagenBoton = document.getElementById('imagenBoton');
+                            
+                            if (imagenBoton.src.endsWith('botonaudio.png')) {
+                                imagenBoton.src = 'botonaudio2.png';
+                                imagenBoton.alt = 'Imagen 2';
+                            } else {
+                                imagenBoton.src = 'botonaudio.png';
+                                imagenBoton.alt = 'Imagen 1';
+                            }
+                        }
+                       </script>
+            </ul>
+        </nav>
+    </div>
+    <main>
+
+    </main>
+    
+    <py-script src="recomendar.py"></py-script>
+       
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+
+
+            <div class="item">
+                <span class="titulo-item">Introducción a la Gestión de la Tecnología y de la Innovación</span> <br>
+                <h6 > Jorge Robledo Velásquez</h6> 
+                <img src="libros/img/1.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/01.pdf">Ver Libro</a></button>
+            </div>
+
+             <div class="item">
+                <span class="titulo-item">Historia y Tecnología</span><br>
+                <h6 > Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado.</h6>
+                <img src="libros/img/2.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/02.pdf">Ver Libro</a></button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">Conceptos básicos de cienca, tecnología e innovación</span><br>
+                <h6 > Comisión Nacional de Investigación Científica y Tecnológica.</h6> 
+                <img src="libros/img/3.png" style="border-radius: 10px;" alt="  " class="img-item">
+                <button class="boton-item"><a href="libros/lib/03.pdf">Ver Libro</a></button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">La ciencia y tecnología en el desarrollo: Una visión desde América Latina</span> <br>
+                <h6 > Red de Bibliotecas Virtuales de Ciencias Sociales en América Latina y el Caribe</h6>
+                <img src="libros/img/4.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/04.pdf">Ver Libro</a></button>
+            </div>
+
+
+            <div class="item">
+                <span class="titulo-item">Guía para el buen uso de las nuevas tecnologías para familias y profesionales en el ámbito de la infancia</span><br>
+                <h6 > Observatorio Canario de las Telecomunicaciones y de la Sociedad de la Información</h6> 
+                <img src="libros/img/5.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/05.pdf">Ver Libro</a></button>
+            </div>
+
+
+           <div class="item">
+                <span class="titulo-item">Guía sobre el uso inteligente de las nuevas tecnologías</span> <br>
+                <h6 > Bienestar y protección Infantil</h6> <br>
+                <img src="libros/img/6.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/06.pdf">Ver Libro</a></button>
+            </div>
+
+
+            <div class="item">
+                <span class="titulo-item">La tecnología</span><br>
+                <h6 > Dr. Fernando García-Córdoba</h6> <br>
+                <img src="libros/img/7.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/07.pdf">Ver Libro</a></button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">Guía con lineamientos generales para el uso de tecnologías emergentes</span> <br>
+                <h6 > Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia</h6> <br>
+                <img src="libros/img/8.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/08.pdf">Ver Libro</a></button>
+            </div>
+
+
+
+
+
+            <div class="item">
+                <span class="titulo-item">Lo que usted debe saber sobre riesgo tecnológico</span> <br>
+                <h6 > Sandra Lucía Pérez García, Sandra Isabel Granados Avellaneda y Sandra Patricia Estupiñán Vargas</h6> <br>
+                <img src="libros/img/9.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/09.pdf">Ver Libro</a></button>
+            </div>
+
+
+            <div class="item">
+                <span class="titulo-item">Introducción a la Tecnología Educativa</span><br>
+                <h6 > Manuel Area Moreira</h6> <br>
+                <img src="libros/img/10.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/10.pdf">Ver Libro</a></button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Fundamento de Tecnología (Artículo)</span> <br>
+                <h6 > Universidad de Antioquia</h6> 
+                <img src="libros/img/11.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/11.pdf">Ver Libro</a></button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">El uso de las tecnologías en la lucha contra el COVID 19. Un análisis de costes y beneficios</span> <br>
+                <h6 > Agencia Española de Protección de Datos</h6> 
+                <img src="libros/img/12.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/12.pdf">Ver Libro</a></button>
+            </div>
+
+
+            <div class="item">
+                <span class="titulo-item">Las concepciones de la tecnologia</span><br>
+                <h6 > Marta I. González García, José A. López Cerezo y José L. Luján López</h6> 
+                <img src="libros/img/13.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/13.pdf">Ver Libro</a></button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Creencias sobre la tecnología y sus relaciones con la ciencia</span> <br>
+                <h6 > José Antonio Acevedo Díaz, Ángel Vázquez Alonso y Mª Antonia Manassero Mas</h6> 
+                <img src="libros/img/14.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/14.pdf">Ver Libro</a></button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item"> Technology: Concepts and Definitions (Inglés)</span> <br>
+                <h6 > International Institute for Applied Systems Analysis</h6> 
+                <img src="libros/img/15.png" style="border-radius: 10px;" alt="" class="img-item">
+                <button class="boton-item"><a href="libros/lib/15.pdf">Ver Libro</a></button>
+            </div>
+    </section>
+    <footer>
+        <p>Vista previa gratuita de Omega S.A. Puede producir información inexacta sobre personas, lugares o hechos. Omega Search Version Octubre 2023</p>
+    </footer>
+</body>
+</html>
